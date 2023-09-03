@@ -3,6 +3,6 @@
 set -o errexit
 
 # poetry install
-pip install -r rquiirements.txt
+pip install -r requirements.txt
 
 python manage.py migrate
